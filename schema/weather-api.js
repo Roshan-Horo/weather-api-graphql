@@ -26,14 +26,6 @@ class WeatherApi extends RESTDataSource {
     });
   }
 
-  // async getMostViewedMovies(limit = 10) {
-  //   const data = await this.get('movies', {
-  //     // Query parameters
-  //     per_page: limit,
-  //     order_by: 'most_viewed',
-  //   });
-  //   return data.results;
-  // }
 }
 
 module.exports = WeatherApi
